@@ -1,0 +1,22 @@
+# Core dependencies
+Flask==2.3.3
+Werkzeug==2.3.7
+gunicorn==21.2.0
+python-dotenv==1.0.0
+flask-cors==4.0.0
+
+# Image processing
+opencv-python-headless==4.8.0.74
+Pillow==10.0.0
+pytesseract==0.3.10
+
+# ML dependencies
+tensorflow-cpu==2.16.1
+numpy==1.24.3
+boto3==1.28.40
+
+# Ensure compatible versions
+ml-dtypes==0.3.1
+
+# Production server
+waitress==2.1.2
